@@ -34,7 +34,10 @@ Shader "Custom/WaterWaveEffect" {
             fixed4 frag(v2f f) : SV_Target
             {
                 half2 uv = half2(0.5,0.5) - f.uv;
+                //float dis = sqrt(uv.x * uv.x + uv.y * uv.y);
+                //float sinFactor = sin(dis * _distanceFactor) * 60;
                 uv = normalize(uv);
+                
                 f.uv = uv * _distanceFactor + f.uv;
                 fixed4 color = tex2D(_MainTex, f.uv);
                 return color;
