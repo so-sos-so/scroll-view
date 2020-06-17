@@ -16,6 +16,10 @@ Shader "Custom/WaterWaveEffect" {
     
             sampler2D _MainTex;
             float _distanceFactor;
+            float _timeFactor;
+            float2 _screenCenter;
+            float _waveDistance;
+            float _waveWidth;
     
             struct v2f
             {
@@ -33,12 +37,15 @@ Shader "Custom/WaterWaveEffect" {
             
             fixed4 frag(v2f f) : SV_Target
             {
-                half2 uv = half2(0.5,0.5) - f.uv;
-                //float dis = sqrt(uv.x * uv.x + uv.y * uv.y);
-                //float sinFactor = sin(dis * _distanceFactor) * 60;
+                half2 uv = _screenCenter - f.uv;
+                uv = uv * float2(_ScreenParams.x / _ScreenParams.y , 1);
+                float dis = sqrt(dot(uv,uv));
+                //sin(波纹频率)  sin值*value  是波峰
+                float sinFactor = sin(dis * _distanceFactor * 60 + _Time.y * _timeFactor) * 0.05;
+                //_waveWidth 运动点周围能显示多少宽度的wave
+                float show = clamp(_waveWidth - abs(_waveDistance - dis),0,1);
                 uv = normalize(uv);
-                
-                f.uv = uv * _distanceFactor + f.uv;
+                f.uv = uv * sinFactor * show + f.uv;
                 fixed4 color = tex2D(_MainTex, f.uv);
                 return color;
             }
