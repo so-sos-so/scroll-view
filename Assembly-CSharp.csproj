@@ -60,10 +60,19 @@
   <ItemGroup>
      <Compile Include="Assets\Post\Bloom\BloomEffect.cs" />
      <Compile Include="Assets\Post\PostEffectsBase.cs" />
+     <Compile Include="Assets\Post\景深\DepthOfFiled.cs" />
+     <Compile Include="Assets\Post\景深\DepthTextureTest.cs" />
      <Compile Include="Assets\Post\模糊\SimpleBlurEffect.cs" />
+     <Compile Include="Assets\Post\水波纹\WaterWaveEffect.cs" />
      <Compile Include="Assets\Post\颜色调整\ColorAdjustEffect.cs" />
+     <Compile Include="Assets\Post\高斯模糊\GaussianBlur.cs" />
+     <None Include="Assets\Post\景深\DepthOfField.shader" />
      <None Include="Assets\Post\颜色调整\ColorAdjustEffect.shader" />
+     <None Include="Assets\Post\Bloom\BloomEffect.shader" />
      <None Include="Assets\Post\模糊\SimpleBlurEffect.shader" />
+     <None Include="Assets\Post\水波纹\WaterWaveEffect.shader" />
+     <None Include="Assets\Post\高斯模糊\GaussianBlur.shader" />
+     <None Include="Assets\Post\景深\DepthTest.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/UnityProject/合集/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

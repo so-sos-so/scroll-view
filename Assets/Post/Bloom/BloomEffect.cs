@@ -4,6 +4,12 @@ using System.Collections;
 [ExecuteInEditMode]
 public class BloomEffect : PostEffectBase
 {
+    /// <summary>
+    /// pass0 取出高于某个亮度的像素
+    /// pass1 对取出的亮度进行模糊，来实现泛光
+    /// pass2 与原有图片叠加 
+    /// </summary>
+    
     //分辨率
     public int downSample = 1;
     //采样率
