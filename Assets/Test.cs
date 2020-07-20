@@ -13,7 +13,6 @@ public class Test : MonoBehaviour
     {
         var _sprites = Resources.LoadAll<Sprite>(GetAtlasPath("icons/icon0"));
         var mainSprite = Resources.Load<Sprite>("icons");
-        Image
     }
     
     private string GetAtlasPath(string path)
