@@ -150,7 +150,7 @@ public class MultilayerSlider : UIBehaviour
         SeparatedLayers();
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
         onLayerChanged?.RemoveAllListeners();
         OnSliderValueChanged?.RemoveAllListeners();
