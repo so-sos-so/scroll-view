@@ -19,3 +19,5 @@
 - https://github.com/Unity-Technologies/ml-agents unity机器学习工具包
 <br/>![gif](https://images1.uwa4d.com/solution/screenshot/5b3da963d6d8c0171a930657/thumbnail.gif)
 - https://github.com/honghuachen/Usdk Unity3D移动平台sdk快速适配框架和多渠道打包平台
+- https://github.com/keijiro/KinoGlitch 故障艺术效果
+<br/>![gif](https://camo.githubusercontent.com/b5346f02f8d074887ed33851e597ada621a72fce6757d51944d0e4091bcdd604/687474703a2f2f33332e6d656469612e74756d626c722e636f6d2f66313735306436353533383137653332623961393731366264386432356630652f74756d626c725f6e71777871384b7738613171696f3436396f325f3430302e676966)
