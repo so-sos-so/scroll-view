@@ -18,3 +18,4 @@
 <br/>![gif](https://images1.uwa4d.com/solution/screenshot/5b56371dd7f10a201fd8aaa0/thumbnail.gif)
 - https://github.com/Unity-Technologies/ml-agents unity机器学习工具包
 <br/>![gif](https://images1.uwa4d.com/solution/screenshot/5b3da963d6d8c0171a930657/thumbnail.gif)
+- https://github.com/honghuachen/Usdk Unity3D移动平台sdk快速适配框架和多渠道打包平台
