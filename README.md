@@ -26,7 +26,12 @@
 - https://github.com/danielzeller/Lowpoly-Water-Unity 低多边形水
 <br/>![gif](https://github.com/danielzeller/Lowpoly-Water-Unity/raw/master/1.gif?raw=true)
 - https://github.com/ManlyMarco/RuntimeUnityEditor 运行时编辑器
-<br/>[](https://user-images.githubusercontent.com/39247311/64476158-ce1a4c00-d18b-11e9-97d6-084452cdbf0a.PNG)
+<br/>![](https://user-images.githubusercontent.com/39247311/64476158-ce1a4c00-d18b-11e9-97d6-084452cdbf0a.PNG)
 - https://github.com/icsharpcode/SharpZipLib c#的压缩包
 - https://github.com/OneSignal/OneSignal-Unity-SDK 移动端推送插件
 - https://github.com/mob-sakai/ParticleEffectForUGUI UI显示粒子
+- https://github.com/monitor1394/unity-ugui-XCharts ugui图表
+<br/>![](https://github.com/monitor1394/unity-ugui-XCharts/blob/master/Doc/screenshot/xcharts-line.png)
+- https://github.com/OneSignal/OneSignal-Unity-SDK 移动端推送插件
+- https://github.com/yasirkula/UnityIngameDebugConsole In-game Debug Console for Unity 3D
+<br/>![](https://github.com/yasirkula/UnityIngameDebugConsole/blob/master/.github/Images/1.png)
