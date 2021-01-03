@@ -35,3 +35,6 @@
 - https://github.com/OneSignal/OneSignal-Unity-SDK 移动端推送插件
 - https://github.com/yasirkula/UnityIngameDebugConsole In-game Debug Console for Unity 3D
 <br/>![](https://github.com/yasirkula/UnityIngameDebugConsole/blob/master/.github/Images/1.png)
+- https://github.com/stella3d/weekend-tracer 一周光线追踪使用unity实现
+- https://github.com/Lunatic-Works/Nova 视觉小说（VN）/文字冒险游戏（AVG）框架
+- https://github.com/chenjd/Render-Crowd-Of-Animated-Characters 批量动画优化
