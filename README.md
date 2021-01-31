@@ -38,3 +38,5 @@
 - https://github.com/stella3d/weekend-tracer 一周光线追踪使用unity实现
 - https://github.com/Lunatic-Works/Nova 视觉小说（VN）/文字冒险游戏（AVG）框架
 - https://github.com/chenjd/Render-Crowd-Of-Animated-Characters 批量动画优化
+- https://github.com/keijiro/Lasp 音频可视化
+<br/>![](https://camo.githubusercontent.com/5feeb94b74cb67d3d94814663f2358235cca6d0d2725b90186e0a7d56825473f/68747470733a2f2f692e696d6775722e636f6d2f4c3938753441492e676966)
